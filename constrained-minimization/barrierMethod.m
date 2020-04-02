@@ -89,7 +89,7 @@ function x = barrierMethod(f,c_ineq,x0,ep,watch)
             continue;
         end
         
-        % updating the value of stopping criterion
+        % Updating the value of stopping criterion
         cp = norm(x - x_anterior);
         
         % Incrementing the counter
